@@ -1,22 +1,22 @@
 {
-    "name": "modul-halaman/modul-halaman",
+    "name": "nank/modul-halaman",
     "description": "Modul Halaman",
     "type": "library",
     "license": "proprietary",
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-        "org/laravel-base": "@dev"
+        "nank/awalan": "@dev"
     },
     "autoload": {
         "psr-4": {
-            "Org\\Halaman\\": "src/"
+            "Nank\\Halaman\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Org\\Halaman\\Providers\\HalamanServiceProvider"
+                "Nank\\Halaman\\Providers\\HalamanServiceProvider"
             ]
         }
     },
