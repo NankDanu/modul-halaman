@@ -1,8 +1,8 @@
 <?php
 
-namespace Org\Halaman\Services;
+namespace Nank\Halaman\Services;
 
-use Org\Halaman\Models\Halaman;
+use Nank\Halaman\Models\Halaman;
 
 class PageRenderer
 {

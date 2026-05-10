@@ -1,9 +1,9 @@
 <?php
 
-namespace Org\Halaman\Services;
+namespace Nank\Halaman\Services;
 
-use Org\Halaman\Models\PageSection;
-use Org\Halaman\Blocks\BlockType;
+use Nank\Halaman\Models\PageSection;
+use Nank\Halaman\Blocks\BlockType;
 
 class BlockRenderer
 {

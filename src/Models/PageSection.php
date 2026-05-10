@@ -1,6 +1,6 @@
 <?php
 
-namespace Org\Halaman\Models;
+namespace Nank\Halaman\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

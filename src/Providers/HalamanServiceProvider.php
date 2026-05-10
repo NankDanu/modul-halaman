@@ -1,9 +1,9 @@
 <?php
 
-namespace Org\Halaman\Providers;
+namespace Nank\Halaman\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Org\Base\Menu\MenuManager;
+use Nank\Awalan\Menu\MenuManager;
 
 class HalamanServiceProvider extends ServiceProvider
 {
@@ -14,7 +14,7 @@ class HalamanServiceProvider extends ServiceProvider
             'halaman'
         );
 
-        $this->app->singleton(\Org\Halaman\Services\BlockRenderer::class);
+        $this->app->singleton(\Nank\Halaman\Services\BlockRenderer::class);
     }
 
     public function boot(): void

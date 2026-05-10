@@ -1,12 +1,12 @@
 <?php
 
-namespace Org\Halaman\Http\Controllers;
+namespace Nank\Halaman\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Validation\Rule;
-use Org\Halaman\Models\Halaman;
-use Org\Halaman\Services\PageRenderer;
+use Nank\Halaman\Models\Halaman;
+use Nank\Halaman\Services\PageRenderer;
 
 class HalamanController extends Controller
 {

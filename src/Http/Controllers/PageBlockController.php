@@ -1,12 +1,12 @@
 <?php
 
-namespace Org\Halaman\Http\Controllers;
+namespace Nank\Halaman\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Org\Halaman\Models\Halaman;
-use Org\Halaman\Models\PageSection;
-use Org\Halaman\Services\BlockRenderer;
+use Nank\Halaman\Models\Halaman;
+use Nank\Halaman\Models\PageSection;
+use Nank\Halaman\Services\BlockRenderer;
 
 class PageBlockController extends Controller
 {

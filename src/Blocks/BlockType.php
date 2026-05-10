@@ -1,6 +1,6 @@
 <?php
 
-namespace Org\Halaman\Blocks;
+namespace Nank\Halaman\Blocks;
 
 abstract class BlockType
 {
